@@ -1,5 +1,3 @@
-End User Persona of the Software:
-
 **Name:** Maria Johnson
 
 **Role:** Marketing Manager
