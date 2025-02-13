@@ -23,7 +23,7 @@ The aim of this project is to create a comprehensive and visually appealing pers
 4. **User-Friendly Interface**: Ensure the website is easy to navigate and visually appealing to visitors.
 
 ## Technologies Used
-
+  **URL for the repository**: https://github.com/gilbert-jj/CSC325ClassProject
 - **Frontend**: HTML, CSS, JavaScript, React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
