@@ -27,8 +27,9 @@ The rules for markdownlint-cli are defined in the .markdownlint.json file in the
 command: markdownlint .
 
 Fix any issues flagged by markdownlint-cli to ensure your files adhere to the markdown style guidelines.
-Contribution Workflow
-# Linting and Checking:
+
+# Contribution Workflow
+## Linting and Checking:
 
 Always run both Vale and markdownlint-cli before pushing your changes.
 Ensure all issues are resolved to maintain high-quality markdown documentation.
