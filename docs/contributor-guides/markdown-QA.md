@@ -7,8 +7,10 @@ Vale is already configured in the DevContainer. To use it, ensure you are workin
 Vale configuration is defined in the .vale.ini file located in the root of the repository. This file uses the Google Developer Documentation Style Guide, write-good supplementary styles, and MDX configurations.
 ## Usage:
 
+
 ### Before committing changes, run Vale to lint your markdown files:
-vale .
+
+command: vale .
 
 Address any issues reported by Vale to ensure your markdown files meet the style and quality standards.
 # Using markdownlint-cli
@@ -21,7 +23,8 @@ The rules for markdownlint-cli are defined in the .markdownlint.json file in the
 ## Usage:
 
 ### Run markdownlint-cli to check your markdown files:
-markdownlint .
+
+command: markdownlint .
 
 Fix any issues flagged by markdownlint-cli to ensure your files adhere to the markdown style guidelines.
 Contribution Workflow

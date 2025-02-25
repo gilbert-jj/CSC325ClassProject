@@ -1,0 +1,8 @@
+# Ignore large markdown file
+docs/large-file.md
+
+# Ignore generated markdown files in a directory
+docs/generated/
+
+# Ignore all markdown files with the .generated.md suffix
+**/*.generated.md

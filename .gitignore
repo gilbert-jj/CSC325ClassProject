@@ -1,3 +1,13 @@
 # ignore Vale generatied files
 
-styles
+styles/
+
+vale-output.json
+vale-output.txt
+
+# Ignore Vale reports directory if Vale is configured to output reports
+vale_reports/
+
+# If Vale generates any temporary or build directories
+tmp/
+build/
