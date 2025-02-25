@@ -8,7 +8,6 @@ Vale configuration is defined in the .vale.ini file located in the root of the r
 Usage:
 
 Before committing changes, run Vale to lint your markdown files:
-sh
 vale .
 Address any issues reported by Vale to ensure your markdown files meet the style and quality standards.
 Using markdownlint-cli
@@ -21,7 +20,6 @@ The rules for markdownlint-cli are defined in the .markdownlint.json file in the
 Usage:
 
 Run markdownlint-cli to check your markdown files:
-sh
 markdownlint .
 Fix any issues flagged by markdownlint-cli to ensure your files adhere to the markdown style guidelines.
 Contribution Workflow
