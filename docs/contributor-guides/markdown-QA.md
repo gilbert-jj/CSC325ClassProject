@@ -1,8 +1,8 @@
 # Using Vale
-# Installation:
+## Installation:
 
 Vale is already configured in the DevContainer. To use it, ensure you are working within the DevContainer environment.
-# Configuration:
+## Configuration:
 
 Vale configuration is defined in the .vale.ini file located in the root of the repository. This file uses the Google Developer Documentation Style Guide, write-good supplementary styles, and MDX configurations.
 ## Usage:
@@ -11,11 +11,11 @@ Vale configuration is defined in the .vale.ini file located in the root of the r
 vale .
 
 Address any issues reported by Vale to ensure your markdown files meet the style and quality standards.
-Using markdownlint-cli
-# Installation:
+# Using markdownlint-cli
+## Installation:
 
 markdownlint-cli is also configured in the DevContainer. Ensure you are in the DevContainer environment to use it.
-# Configuration:
+## Configuration:
 
 The rules for markdownlint-cli are defined in the .markdownlint.json file in the root of the repository. Currently, the configuration disables the MD013 rule which checks for line-length.
 ## Usage:
