@@ -1,4 +1,4 @@
-use 'client'
+'use client'
 import * as React from 'react';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { ThemeProvider } from '@mui/material/styles';
@@ -20,7 +20,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
             <CssBaseline enableColorScheme />
             <AppAppBar />
             {props.children}
-           </AppTheme>
+           </ThemeProvider>
          </AppRouterCacheProvider>
       </body>
     </html>

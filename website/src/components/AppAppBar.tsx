@@ -1,3 +1,4 @@
+'use client'
 import * as React from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -11,8 +12,9 @@ import MenuItem from '@mui/material/MenuItem';
 import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
-import ColorModeIconDropdown from '../../shared-theme/ColorModeIconDropdown';
+import ColorModeIconDropdown from '@/shared-theme/ColorModeIconDropdown';
 import Sitemark from './SitemarkIcon';
+import type {} from '@mui/material/themeCssVarsAugmentation';
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: 'flex',
@@ -70,6 +72,9 @@ export default function AppAppBar() {
               </Button>
               <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
                 Blog
+              </Button>
+               <Button variant="text" href="/about" color="info" size="small" sx={{ minWidth: 0 }}>
+              About
               </Button>
             </Box>
           </Box>
