@@ -1,42 +1,20 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-30426af235bb0664.js",
-      "static/chunks/4bd1b696-88dfbfe0f4e650de.js",
-      "static/chunks/684-800328107862ddb6.js",
-      "static/chunks/main-app-7e6337562954b81c.js",
-      "static/chunks/app/_not-found/page-72d13e8deb2ddfba.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-30426af235bb0664.js",
-      "static/chunks/4bd1b696-88dfbfe0f4e650de.js",
-      "static/chunks/684-800328107862ddb6.js",
-      "static/chunks/main-app-7e6337562954b81c.js",
-      "static/css/1018df78a05ccae4.css",
-      "static/chunks/369-58f340e6fbccf42e.js",
-      "static/chunks/217-5fdd699d2b5aba70.js",
-      "static/chunks/193-a320d4116122c1b4.js",
-      "static/chunks/app/layout-4b0b7f627acca0dd.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack-30426af235bb0664.js",
-      "static/chunks/4bd1b696-88dfbfe0f4e650de.js",
-      "static/chunks/684-800328107862ddb6.js",
-      "static/chunks/main-app-7e6337562954b81c.js",
-      "static/chunks/369-58f340e6fbccf42e.js",
-      "static/chunks/764-9357fa8b87d611e6.js",
-      "static/chunks/app/about/page-8de4f88414bc5e85.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/page": [
-      "static/chunks/webpack-30426af235bb0664.js",
-      "static/chunks/4bd1b696-88dfbfe0f4e650de.js",
-      "static/chunks/684-800328107862ddb6.js",
-      "static/chunks/main-app-7e6337562954b81c.js",
-      "static/chunks/369-58f340e6fbccf42e.js",
-      "static/chunks/217-5fdd699d2b5aba70.js",
-      "static/chunks/764-9357fa8b87d611e6.js",
-      "static/chunks/469-a4198a8a114d88e0.js",
-      "static/chunks/app/page-20f16e0029155c65.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

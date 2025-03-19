@@ -21,7 +21,7 @@ const StyledBox = styled('div')(({ theme }) => ({
   outlineColor: 'hsla(220, 25%, 80%, 0.2)',
   border: '1px solid',
   borderColor: (theme.vars || theme).palette.grey[200],
-  boxShadow: '0 0 12px 8px hsla(220, 25%, 80%, 0.2)',
+  boxShadow: '0 0 12px 8px hsla(0, 4.10%, 52.20%, 0.20)',
   backgroundImage: `url(${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/screenshots/material-ui/getting-started/templates/dashboard.jpg)`,
   backgroundSize: 'cover',
   [theme.breakpoints.up('sm')]: {
@@ -45,7 +45,7 @@ export default function Hero() {
         backgroundRepeat: 'no-repeat',
 
         backgroundImage:
-          'radial-gradient(ellipse 80% 50% at 50% -20%, hsl(210, 100%, 90%), transparent)',
+          'radial-gradient(ellipse 80% 50% at 50% -20%, hsl(212, 68.90%, 76.10%), transparent)',
         ...theme.applyStyles('dark', {
           backgroundImage:
             'radial-gradient(ellipse 80% 50% at 50% -20%, hsl(210, 100%, 16%), transparent)',
@@ -97,9 +97,7 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality solutions
-            tailored to your needs. Elevate your experience with top-tier features
-            and services.
+       
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
