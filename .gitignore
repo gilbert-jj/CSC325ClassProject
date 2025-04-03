@@ -19,3 +19,6 @@ package-lock.json
 
 # Keep these files
 !website/package.json
+
+# Ignore out folder
+out/
