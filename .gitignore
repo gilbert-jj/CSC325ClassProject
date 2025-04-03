@@ -11,3 +11,11 @@ vale_reports/
 # If Vale generates any temporary or build directories
 tmp/
 build/
+
+# Node generated files
+node_modules
+package.json
+package-lock.json
+
+# Keep these files
+!website/package.json
