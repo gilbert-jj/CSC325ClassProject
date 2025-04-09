@@ -26,7 +26,7 @@ export default function Home() {
       >
        <Hero/>
        <div>
-        <LogoCollection />
+       <LogoCollection />
         <Features />
         <Divider />
         <Testimonials />

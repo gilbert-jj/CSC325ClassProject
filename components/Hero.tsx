@@ -23,7 +23,7 @@ const StyledBox = styled('div')(({ theme }) => ({
   boxShadow: '0 0 12px 8px hsla(220, 25%, 80%, 0.2)',
   backgroundImage: `url(${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/screenshots/material-ui/getting-started/templates/dashboard.jpg)`,
   backgroundSize: 'cover',
-  [theme.breakpoints.up('sm')]: {
+  [theme.breakpoints.up('sm') ]: {
     marginTop: theme.spacing(10),
     height: 700,
   },
@@ -86,7 +86,7 @@ export default function Hero() {
                 }),
               })}
             >
-              products
+              great hire
             </Typography>
           </Typography>
           <Typography
@@ -96,9 +96,10 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality solutions
-            tailored to your needs. Elevate your experience with top-tier features
-            and services.
+            You're on a mission to build exceptional tech teams—and I’m here to make it easier 
+            for you. As a passionate junior developer, I bring fresh ideas, problem-solving 
+            skills, automation, and a commitment to delivering results. Let’s work together to turn your 
+            challenges into opportunities, and ensure your team thrives.
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
@@ -145,8 +146,8 @@ export default function Hero() {
             .
           </Typography>
         </Stack>
-        <StyledBox id="image" />
+        <StyledBox id="image" data-testid="image" />
       </Container>
     </Box>
-  );
+ );
 }
